@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06d5a8cb-c5a4-4d94-90f0-2c8629d72970" name="Default Changelist" comment="" />
+    <list default="true" id="06d5a8cb-c5a4-4d94-90f0-2c8629d72970" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Reply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Thread.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ReplyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ReplyTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +31,9 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -153,18 +166,28 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\forum\app\Inspections" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\forum\database\factories" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\forum\app\Http\Forms" />
+      <recent name="D:\xampp\htdocs\forum\app\Inspections" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.UserTest.a_user_can_fetch_their_most_recent_reply">
+    <configuration name="UserTest.a_user_can_fetch_their_most_recent_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="a_user_can_fetch_their_most_recent_reply" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.UserTest.a_user_can_fetch_their_most_recent_reply" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -207,7 +230,11 @@
       <workItem from="1603565858619" duration="1098000" />
       <workItem from="1603700083466" duration="11635000" />
       <workItem from="1603787311955" duration="6905000" />
-      <workItem from="1603872900584" duration="2643000" />
+      <workItem from="1603872900584" duration="3336000" />
+      <workItem from="1603959955023" duration="9058000" />
+      <workItem from="1604045213499" duration="597000" />
+      <workItem from="1604305785546" duration="596000" />
+      <workItem from="1604392370271" duration="9991000" />
     </task>
     <servers />
   </component>
@@ -239,10 +266,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="530" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1601626945873" />
-    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603374896557">
+    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604407376427">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1602597735106" />
+    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604407376427" />
     <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1603374896557" />
     <state x="586" y="192" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1601462645154">
       <screen x="0" y="0" width="1536" height="834" />
@@ -270,15 +297,19 @@
     </state>
     <state x="597" y="140" key="NewPhpClassDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1601645471017" />
     <state x="597" y="140" key="NewPhpClassDialog/0.0.1536.834@0.0.1536.834" timestamp="1603726158918" />
-    <state x="604" y="341" key="NewPhpFileDialog" timestamp="1603718455055">
+    <state x="604" y="341" key="NewPhpFileDialog" timestamp="1604398294803">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1601894675207" />
+    <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604398294803" />
     <state x="604" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1603718455055" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1602669314416">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1602669314416" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604405822926">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604405822926" />
     <state x="371" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601467593809">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -288,21 +319,21 @@
     </state>
     <state x="93" y="93" width="1350" height="648" key="dock-window-1/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1602243845860" />
     <state x="93" y="93" width="1350" height="648" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1602666303292" />
-    <state x="786" y="136" width="585" height="564" key="find.popup" timestamp="1603796252332">
+    <state x="786" y="136" width="585" height="564" key="find.popup" timestamp="1604408057839">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="786" y="136" width="585" height="564" key="find.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1602594158363" />
+    <state x="786" y="136" width="585" height="564" key="find.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604408057839" />
     <state x="2903" y="171" width="732" height="801" key="find.popup/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602582809883" />
-    <state x="786" y="136" width="585" height="564" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1603796252332" />
+    <state x="786" y="136" width="585" height="564" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1603966866918" />
     <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1603795292323">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1602233691051" />
     <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1603795292323" />
-    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1603796222386">
+    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1604409201098">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1602597353366" />
-    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603796222386" />
+    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604409201098" />
+    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603972584251" />
   </component>
 </project>

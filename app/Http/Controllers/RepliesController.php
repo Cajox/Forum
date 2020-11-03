@@ -2,13 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Forms\CreatePostForm;
 use App\Models\Reply;
 use App\Models\Thread;
 use App\Inspections\Spam;
+use App\Models\User;
+use App\Notifications\YouWereMentioned;
 use App\Rules\SpamFree;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Exception;
+use Illuminate\Support\Facades\Gate;
 
 class RepliesController extends Controller
 {
@@ -24,24 +28,19 @@ class RepliesController extends Controller
      * @param Thread $thread
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function store($channelId, Thread $thread){
+    public function store($channelId, Thread $thread, CreatePostForm $form){
 
-        try {
+        if (Gate::denies('create', new Reply)){
 
-            $this->validateReply();
-
-            $reply = $thread->addReply([
-
-                'body' => request('body'),
-                'user_id' => Auth::id(),
-
-            ]);
-
-        } catch (Exception $e){
-
-            return response('This is spam',422);
+            return response('Take a break',422);
 
         }
+
+        $this->authorize('create', new Reply());
+
+//            $this->validateReply();
+
+        $reply = $form->persist($thread);
 
         if (\request()->expectsJson()){
 

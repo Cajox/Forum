@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Favoritable;
 use App\RecordsActivity;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
@@ -50,10 +51,23 @@ class Reply extends Model
 
     }
 
+    public function mentionedUsers(){
+
+        preg_match_all('/\@([^\s\.]+)/', $this->body, $matches);
+
+        return $matches[1];
+
+    }
+
     public function path(){
 
         return $this->thread->path() . "#reply-{$this->id}";
 
+    }
+
+    public function wasJustPublished(){
+
+        return $this->created_at->gt(Carbon::now()->subMinute());
     }
 
 
