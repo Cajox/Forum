@@ -7,12 +7,10 @@
     <list default="true" id="06d5a8cb-c5a4-4d94-90f0-2c8629d72970" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Listeners/NotifyMentionedUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Listeners/NotifyMentionedUsers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Listeners/NotifySubscribers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Listeners/NotifySubscribers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Reply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Thread.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/ReplyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ReplyTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +232,10 @@
       <workItem from="1603959955023" duration="9058000" />
       <workItem from="1604045213499" duration="597000" />
       <workItem from="1604305785546" duration="596000" />
-      <workItem from="1604392370271" duration="9991000" />
+      <workItem from="1604392370271" duration="13770000" />
+      <workItem from="1604480254138" duration="2393000" />
+      <workItem from="1604565283665" duration="2416000" />
+      <workItem from="1604652169621" duration="2063000" />
     </task>
     <servers />
   </component>
@@ -330,10 +331,10 @@
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1602233691051" />
     <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1603795292323" />
-    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1604409201098">
+    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1604660999381">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604409201098" />
+    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604660999381" />
     <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603972584251" />
   </component>
 </project>
