@@ -106,8 +106,7 @@ class ThreadsController extends Controller
 
         }
 
-        $threads = $threads->get();
-        return $threads;
+        return $threads->paginate(5);
     }
 
     public function destroy($channel, Thread $thread){

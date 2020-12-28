@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06d5a8cb-c5a4-4d94-90f0-2c8629d72970" name="Default Changelist" comment="" />
+    <list default="true" id="06d5a8cb-c5a4-4d94-90f0-2c8629d72970" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/threads/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/MentionUsersTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/MentionUsersTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,6 +152,15 @@
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/agent" />
+      <path value="$PROJECT_DIR$/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/vendor/laravel/jetstream" />
     </include_path>
   </component>
   <component name="ProjectId" id="1huYTkMf7US06PVOsj8YlEdNHKl" />
@@ -228,6 +249,26 @@
       <workItem from="1604480254138" duration="2393000" />
       <workItem from="1604565283665" duration="2416000" />
       <workItem from="1604652169621" duration="2838000" />
+      <workItem from="1605704174359" duration="4917000" />
+      <workItem from="1606218216914" duration="595000" />
+      <workItem from="1606313155104" duration="896000" />
+      <workItem from="1606473689722" duration="72000" />
+      <workItem from="1606494318124" duration="4273000" />
+      <workItem from="1606736357436" duration="7898000" />
+      <workItem from="1606910534110" duration="2236000" />
+      <workItem from="1607085703022" duration="597000" />
+      <workItem from="1607090121863" duration="2675000" />
+      <workItem from="1607118486479" duration="599000" />
+      <workItem from="1607179928345" duration="2793000" />
+      <workItem from="1607339908489" duration="597000" />
+      <workItem from="1607533968592" duration="371000" />
+      <workItem from="1608224811727" duration="1952000" />
+      <workItem from="1608291553608" duration="763000" />
+      <workItem from="1608493200422" duration="599000" />
+      <workItem from="1608496835789" duration="599000" />
+      <workItem from="1608669155360" duration="1819000" />
+      <workItem from="1608718591133" duration="599000" />
+      <workItem from="1608807064606" duration="1797000" />
     </task>
     <servers />
   </component>
@@ -280,11 +321,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="189" key="#com.jetbrains.php.refactoring.pullPush.pushDown.PhpPushDownDialog#/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1601645570827" />
-    <state x="548" y="191" key="FileChooserDialogImpl" timestamp="1603725158592">
+    <state x="548" y="191" key="FileChooserDialogImpl" timestamp="1608670484316">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="191" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1601374312857" />
-    <state x="548" y="191" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1603725158592" />
+    <state x="548" y="191" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608670484316" />
     <state x="597" y="140" key="NewPhpClassDialog" timestamp="1603726158918">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -312,21 +353,21 @@
     </state>
     <state x="93" y="93" width="1350" height="648" key="dock-window-1/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1602243845860" />
     <state x="93" y="93" width="1350" height="648" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1602666303292" />
-    <state x="786" y="136" width="585" height="564" key="find.popup" timestamp="1604408057839">
+    <state x="786" y="136" width="585" height="564" key="find.popup" timestamp="1607196283837">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="786" y="136" width="585" height="564" key="find.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604408057839" />
     <state x="2903" y="171" width="732" height="801" key="find.popup/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602582809883" />
-    <state x="786" y="136" width="585" height="564" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1603966866918" />
+    <state x="786" y="136" width="585" height="564" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1607196283837" />
     <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1603795292323">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1602233691051" />
     <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1603795292323" />
-    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1604660999381">
+    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1608674192576">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1604660999381" />
-    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603972584251" />
+    <state x="430" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1608674192576" />
   </component>
 </project>
